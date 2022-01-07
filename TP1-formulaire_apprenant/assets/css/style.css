@@ -1,0 +1,56 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    font-family: Kalam, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.btn-primary {
+    color: rgb(3, 3, 3);
+    background-color:rgb(153, 214, 255, 0.9) ;
+    border-color: #000000;
+}
+
+
+.rounded-3 {
+    border-radius: 1rem!important;
+    border-top-left-radius: 2rem !important;
+    border-top-right-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+    border-bottom-left-radius: 2rem !important;
+}
+
+.alertMessage {
+    color: red;
+    display: none;
+}
+
+.l1, .l2, .l3 {
+    width: 20%;
+    height: 0.3rem;
+    background: #000;
+    margin: 1rem;
+    display: none;
+}
+
+.l1 {
+    background-color: red;
+}
+.l2 {
+    background-color: yellow;
+}
+.l3 {
+    background-color: green;
+}
