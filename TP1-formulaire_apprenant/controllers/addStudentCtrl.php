@@ -147,14 +147,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 include(dirname(__FILE__).'/../views/templates/header.php');
 
 if (($_SERVER["REQUEST_METHOD"] != "POST") || !empty($errorArray)) { 
-
-include(dirname(__FILE__).'/../views/templates/form.php');
-
+    include(dirname(__FILE__).'/../views/templates/form.php');
 } else { 
-
-
-include(dirname(__FILE__).'/../views/templates/results.php');
-
+    include(dirname(__FILE__).'/../views/templates/results.php');
 }
 
 include(dirname(__FILE__).'/../views/templates/footer.php');
